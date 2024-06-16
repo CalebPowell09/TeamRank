@@ -1,6 +1,0 @@
-name: TeamRanks
-version: '1.0'
-main: org.com.teamranks.TeamRanks
-api-version: '1.21'
-commands:
-  rank:
