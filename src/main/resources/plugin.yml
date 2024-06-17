@@ -1,6 +1,13 @@
 name: TeamRanks
 version: '1.0'
-main: org.com.teamranks.TeamRanks
+main: org.com.teamranks.Main
 api-version: '1.21'
 commands:
   rank:
+  reply:
+    aliases:
+      - r:
+  message:
+    aliases:
+      - m
+      - msg
