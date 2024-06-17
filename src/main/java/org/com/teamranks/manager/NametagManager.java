@@ -14,7 +14,7 @@ public class NametagManager {
         this.main = main;
     }
 
-    public  void setNametags(Player player) {
+    public void setNametags(Player player) {
 
     player.setScoreboard(Bukkit.getScoreboardManager().getNewScoreboard());
 
@@ -31,14 +31,14 @@ public class NametagManager {
 
     }
 
-    public  void newTag(Player player) {
+    public void newTag(Player player) {
         Rank rank = main.getRankManager().getRank(player.getUniqueId());
         for (Player target : Bukkit.getOnlinePlayers()){
             target.getScoreboard().getTeam(rank.name()).addEntry(player.getName());
         }
     }
 
-    public  void removeTag(Player player) {
+    public void removeTag(Player player) {
         for (Player target : Bukkit.getOnlinePlayers()){
             target.getScoreboard().getEntryTeam(player.getName()).removeEntry(player.getName());
         }

@@ -6,8 +6,5 @@ commands:
   rank:
   reply:
     aliases:
-      - r:
-  message:
-    aliases:
-      - m
-      - msg
+      - r
+  msg:
