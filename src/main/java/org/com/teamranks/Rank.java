@@ -5,8 +5,8 @@ import org.bukkit.ChatColor;
 public enum Rank {
 
     OWNER(ChatColor.RED + "Owner"),
-    FILLER(ChatColor.GOLD + "Developer"),
-    FILLER1(ChatColor.GREEN + "Grinder"),
+    DEVELOPER(ChatColor.GOLD + "Developer"),
+    GRINDER(ChatColor.GREEN + "Grinder"),
     MEMBER(ChatColor.AQUA + "Member");
 
     private String display;
